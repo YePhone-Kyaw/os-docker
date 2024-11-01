@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS students (
+  id SERIAL PRIMARY KEY,
+  studentID TEXT UNIQUE NOT NULL,
+  studentName TEXT NOT NULL,
+  course TEXT NOT NULL,
+  presentDate DATE NOT NULL
+);
